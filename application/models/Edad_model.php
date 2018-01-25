@@ -1,23 +1,25 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Departamento_model extends CI_Model{
+class Edad_model extends CI_Model{
 	
 	function __construct(){
 		parent::__construct();
 		$this->load->database();
 	}
 
-	function Insertar_registro($params){
+	function InsertarEdad($params){
 
 		//print_r($params);
 
 		$data = array(
-			'departamento' => $params['departamento']
+			//nombre del campo         //variable
+			'codigo' => $params['codigo'],
+			'edad' => $params['edad']
 		);
 
 		//print_r($data);
-
-		$this->db->insert('departamento', $data);
+			//tabla
+		$this->db->insert('edad', $data);
 
 		$id = $this->db->insert_id();
 

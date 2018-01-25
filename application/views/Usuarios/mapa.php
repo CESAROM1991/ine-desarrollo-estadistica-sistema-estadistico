@@ -1,23 +1,23 @@
     <script>
 
     image_1on     = new Image(321,375);
-    image_1on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP1.jpg";
+    image_1on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP01.jpg";
     image_2on     = new Image(321,375);
-    image_2on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP2.jpg";
+    image_2on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP02.jpg";
     image_3on     = new Image(321,375);
-    image_3on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP3.jpg";
+    image_3on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP03.jpg";
     image_4on     = new Image(321,375);
-    image_4on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP4.jpg";
+    image_4on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP04.jpg";
     image_5on     = new Image(321,375);
-    image_5on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP5.jpg";
+    image_5on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP05.jpg";
     image_6on     = new Image(321,375);
-    image_6on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP6.jpg";
+    image_6on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP06.jpg";
     image_7on     = new Image(321,375);
-    image_7on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP7.jpg";
+    image_7on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP07.jpg";
     image_8on     = new Image(321,375);
-    image_8on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP8.jpg";
+    image_8on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP08.jpg";
     image_9on     = new Image(321,375);
-    image_9on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP9.jpg";
+    image_9on.src =  "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP09.jpg";
     image_10on     = new Image(321,375);
     image_10on.src = "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP10.jpg";
     image_11on     = new Image(321,375);
@@ -45,7 +45,7 @@
     image_22on     = new Image(321,375);
     image_22on.src = "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP22.jpg";
     image_off      = new Image(321,375);
-    image_off.src  = "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP0.jpg";
+    image_off.src  = "/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP00.jpg";
 
     function img_act(imgName){
       img_nombre = "mapa_completo"
@@ -89,6 +89,7 @@
     <area alt="CHIQUIMULA" onclick="Ejecutar(2000)" onmouseover="img_act(20)" onmouseout="img_inact()" shape="polygon" coords="180,227,175,229,172,227,168,231,166,230,159,231,154,233,159,239,158,245,159,247,157,250,158,251,159,249,162,253,166,252,168,255,167,258,171,259,177,259,176,256,182,249,185,247,186,249,189,247,190,241,188,238,181,229,180,227">
     <area alt="JALAPA" onclick="Ejecutar(2100)" onmouseover="img_act(21)" onmouseout="img_inact()" shape="polygon" coords="142,231,136,237,128,239,126,241,125,244,124,244,122,247,124,256,129,253,135,258,137,258,141,255,143,257,146,254,149,251,153,255,158,251,156,249,159,246,158,244,159,239,157,237,155,239,153,239,152,240,149,237,149,235,144,232,143,233,142,231">
     <area alt="JUTIAPA" onclick="Ejecutar(2200)" onmouseover="img_act(22)" onmouseout="img_inact()" shape="polygon" coords="159,249,153,255,148,252,143,257,142,255,136,257,134,259,133,261,129,263,126,264,126,267,129,268,134,274,133,279,130,281,130,286,124,284,121,285,122,287,124,293,123,294,124,295,123,296,130,300,132,296,132,292,138,286,147,279,152,282,158,273,164,270,166,268,163,263,163,261,163,260,168,257,168,254,166,252,161,253,159,249">
-    <img src="/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP0.jpg" name="mapa_completo" border="0" usemap="#FPMap0" alt="" width="261" height="340">
+    <img src="/EducacionINE/theme/img/sche$sinip/mapas/snmppt$DP00.jpg" name="mapa_completo" border="0" usemap="#FPMap0" alt="" width="261" height="340">
     </map>
+  
 </p>

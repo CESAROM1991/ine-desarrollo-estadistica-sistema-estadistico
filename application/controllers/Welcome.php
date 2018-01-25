@@ -23,7 +23,6 @@ class Welcome extends CI_Controller {
 	  $this->load->view('/dependencias');
       $this->load->view('/Usuarios/educacion_inicio');
 	  $this->load->view('/Usuarios/educacion_menu');
-	  $this->load->view('/Usuarios/educacion_pie');
 	}
 }
 

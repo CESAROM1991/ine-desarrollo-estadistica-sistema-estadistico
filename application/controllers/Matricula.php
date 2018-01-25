@@ -33,8 +33,8 @@ class Matricula extends CI_Controller {
                $params['poblacion']=$data[6];
                $params['neta']=$data[7];
                $params['bruta']=$data[8];
-               //print_r($params['departamento']);
-               $this->Matricula_model->InsertarMatricula($params);
+               //print_r($params['departamento'])
+;               $this->Matricula_model->InsertarMatricula($params);
             }
       }
       $this->load->view('/Matriculas/cargar');
@@ -69,8 +69,44 @@ class Matricula extends CI_Controller {
      
       }
 
-      $res=$this->Matricula_model->MostrarDatos($params);
+
+     /* if (null !== ($this->input->post('periodo'))){
+
+         foreach ($_POST['periodo'] as $selectedOption)
+            echo $selectedOption."\n";
+
+         $params = array   (
+                     'departamento'    => $this->input->post('departamento')
+                  );
+
+      }else{
+         $params = array   (
+                     'departamento'    => '1'
+                  );
+
+      }*/
+
+
+     /* $nivelt="";
+      foreach ($params['nivel'] as $key => $nivel) {
+         $nivelt.=$nivel." ";
+      }
+
+
+      $periodot="";
+      foreach ($params['periodo'] as $key => $periodo) {
+         $periodot.=$periodo." ";
+      }
+
+
+      $data['nivelt']=$nivelt;
+      $data['periodot']=$periodot;
+
+      var_dump($data['nivelt']);*/
       
+      $res=$this->Matricula_model->MostrarDatos($params);
+      //print_r($res);
+
       $data['registros']= json_encode($res);
 
       $res=$this->Matricula_model->ListarPeriodo();

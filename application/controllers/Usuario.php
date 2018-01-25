@@ -30,7 +30,7 @@ public function mapa()
 	{
 		
       $this->load->view('/dependencias');
-      //$this->load->view('/Usuarios/educacion_inicio');
+      $this->load->view('/Usuarios/educacion_inicio');
 	  $this->load->view('/Usuarios/mapa');
 	}
 
@@ -56,15 +56,8 @@ public function cargar()
 
 		//$this->load->view('/dependencias');
 		$this->load->view('/Usuarios/cargar');
-	}
 
-	public function vitales_menu()
-	{
-		
-      $this->load->view('/dependencias');
-      $this->load->view('/Usuarios/educacion_inicio');
-	  $this->load->view('/Usuarios/vitales_menu');
-	  $this->load->view('/Usuarios/educacion_pie');
+
 	}
 
 }

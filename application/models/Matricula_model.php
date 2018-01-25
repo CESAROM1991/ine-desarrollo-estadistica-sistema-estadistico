@@ -13,12 +13,12 @@ class Matricula_model extends CI_Model{
 			'periodo_id' => $params['periodo_id'],
 			'nivel_id' => $params['nivel_id'],
 			'inscritos' => $params['inscritos'],
-			'inscritos_edad' => $params['inscritos_edad'],
+			'inscritos_edad' => $parames['inscritos_edad'],
 			'poblacion' => $params['poblacion'],
 			'bruta' => $params['bruta'],
 			'neta' => $params['neta']
 		);
-		$this->db->insert('matricula',  $data);
+		$this->db->insert('matricula',  $data);   
 		$id = $this->db->insert_id();
 		return $id;
 	}
